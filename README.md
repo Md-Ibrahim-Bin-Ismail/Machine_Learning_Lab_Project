@@ -14,8 +14,8 @@ Use Case: Predicting heart disease risk based on health and lifestyle factors
 [histogram]
 **Sample of dataset**
 
-[Screenshot (16)](https://github.com/user-attachments/assets/c93fa2f2-d5ff-46e1-a93a-8f8bd2d321c9)
-taset]
+![Screenshot (16)](https://github.com/user-attachments/assets/c93fa2f2-d5ff-46e1-a93a-8f8bd2d321c9)
+
 **Approach**
 
 We implement machine learning To predict heart disease using machine learning, the approach begins with data preprocessing, including handling missing values, encoding categorical variables, feature scaling, and selecting the most relevant features. Exploratory Data Analysis (EDA) follows, where data distributions, correlations, and class imbalance are analyzed. Next, various classification models such as Logistic Regression, Decision Tree, Random Forest, SVM, and XGBoost are trained, with hyperparameter tuning to optimize performance. Model evaluation is conducted using metrics like accuracy, precision, recall, F1-score, and ROC-AUC. If needed, the final model can be deployed using Flask or Django as an API and integrated into a cloud platform for real-world use.
