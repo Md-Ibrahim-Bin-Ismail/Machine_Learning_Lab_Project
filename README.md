@@ -35,13 +35,11 @@ Step 1: Collect the various data from online .
 
 Step 2: Removed special characters, punctuation, stop words, and frequent terms from the content. For collecting the actual feature from the content, we removed the special characters, punctuation, stop words, and frequent terms from the content. 
 
-Step 3: We utilized tokenizer to tokenize the data .In this step we use tokenization to separate the individual word from content.
+Step 3: We now have a list of terms and the frequency with which they appeared in each piece of content. The feature was then extracted from the material using tf-idf. Full form of if-idf is Term Frequency Inverse Document Frequency. 
 
-Step 4: We now have a list of terms and the frequency with which they appeared in each piece of content. The feature was then extracted from the material using tf-idf. Full form of if-idf is Term Frequency Inverse Document Frequency. 
+Step 4: We then divided the dataset into 80% for training and 20% for testing. 
 
-Step 5: We then divided the dataset into 80% for training and 20% for testing. 
-
-Step 6: We then trained a variety of machine learning models to categorize the contents. 
+Step 5: We then trained a variety of machine learning models to categorize the contents. 
 *Machine Leaning Models used:*
 •	Logistic Regression
 •	Decision Tree
@@ -50,15 +48,17 @@ Step 6: We then trained a variety of machine learning models to categorize the c
 •	Linear Regression
 •	SVC
 
-Step 7: We used a test dataset to assess the machine learning models. We plot confusion matrix for each model. Then we calculate precision, recall, accuracy, F1-score for each model. We evaluated our machine learning approaches using different test contents from our created dataset. In this case, machine learning models performed well for Random Forest feature. 
+Step 6: We used a test dataset to assess the machine learning models. We plot confusion matrix for each model. Then we calculate precision, recall, accuracy, F1-score for each model. We evaluated our machine learning approaches using different test contents from our created dataset. In this case, machine learning models performed well for Random Forest feature. 
 
-Step 8: Using the evaluated findings, we selected the best machine learning model is Random Forest. We achieved 95% accuracy using the Random Forest.
+Step 7: Using the evaluated findings, we selected the best machine learning model is Random Forest. 
+
+Step 8: We achieved 95% accuracy using the Random Forest.
 
 ![modeltable](https://github.com/user-attachments/assets/bc587548-6235-4372-ba86-3b0fc38549a5)
 
 [performance table of machine learning models]
 
-Step 9: We then used the Random Forest model to forecast the unlabeled content.
+
 
 **Input Content:**
 
