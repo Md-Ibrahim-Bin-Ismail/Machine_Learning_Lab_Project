@@ -1,4 +1,8 @@
 # Heart Disease Prediction Using Machine Learning
+CSE - 5211 : Machine Learning  Lab
+Course Instructor : Md Mynoddin, Assistant Professor , Dept. of CSE, RMSTU 
+Md. Ibrahim Bin Ismail (2018-15-28)
+
 
 **Problem Statement**
 
