@@ -56,7 +56,7 @@ Step 8: We achieved 95% accuracy using the Random Forest.
 
 ![modeltable](https://github.com/user-attachments/assets/bc587548-6235-4372-ba86-3b0fc38549a5)
 
-[performance table of machine learning models]
+figure: Performance table of machine learning models
 
 
 
