@@ -3,15 +3,17 @@
 **Problem Statement**
 
 Heart disease is one of the leading causes of mortality worldwide, and early diagnosis is crucial for effective treatment and prevention. Traditional diagnostic methods are often time-consuming, costly, and require expert medical knowledge. With the increasing availability of medical data, machine learning techniques offer a promising approach to predicting heart disease with higher accuracy and efficiency. This research aims to develop a machine learning-based predictive model that can analyze patient data and identify individuals at risk of heart disease. By leveraging various classification algorithms and feature selection techniques, the model seeks to improve early detection and assist healthcare professionals in making informed decisions, ultimately reducing the burden of heart-related illnesses.
-**Dataset**
 
+**Dataset**
 The dataset is from an ongoing cardiovascular study on residents of the town of Framingham, Massachusetts. The classification goal is to predict whether the patient has 10-year risk of future coronary heart disease (CHD). The dataset provides the patients’ information. It includes over 4,000 records and 15 attributes.Total Records: 4,240
 Total Features: 16 (including the target variable)
 Target Variable: TenYearCHD (binary: 1 = At risk, 0 = Not at risk)
 Missing Values: Present in some columns (e.g., education, glucose, BMI)
 Feature Types: Mix of categorical (e.g., gender, smoker status) and numerical (e.g., age, cholesterol, blood pressure)
 Use Case: Predicting heart disease risk based on health and lifestyle factors
-[histogram]
+![Histogram](https://github.com/user-attachments/assets/1d66f71c-88a9-407d-86c2-807d1ab99cee)
+Counting number of patients affected by CHD where (0= Not Affected; 1= Affected)
+
 **Sample of dataset**
 
 ![Screenshot (16)](https://github.com/user-attachments/assets/c93fa2f2-d5ff-46e1-a93a-8f8bd2d321c9)
